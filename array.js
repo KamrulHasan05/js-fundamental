@@ -42,3 +42,28 @@ while (i < bookList.length) {
     console.log(bookList[i]);
     i++;
 }
+
+
+
+var letters = ['a', 'b', 'c', 'd', 'e', 'f']
+var o = 0;
+while (o < letters.length) {
+    if (letters[2] == 'c') {
+        letters[2] = 'ABC'
+
+    }
+    console.log(letters[o])
+    o++;
+}
+console.log(letters.indexOf('a'))
+
+var letter = ['a', 'b', 'c', 'd', 'e', 'f']
+var f = 0;
+
+while (f < letter.length) {
+    if (letter[f] == 'd') {
+        letter[f] = 'VCD';
+    }
+    console.log(letter[f]);
+    f++;
+}
