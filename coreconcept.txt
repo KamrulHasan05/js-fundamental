@@ -1,0 +1,15 @@
+Variable, 
+Array, 
+condition, 
+loop, 
+funtion
+
+
+
+third lowest ber kora niye problem
+
+
+function add(a, b) {
+    return a + b;
+}
+console.log(add("adam" + "eve"))
