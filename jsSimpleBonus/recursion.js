@@ -22,4 +22,22 @@ function simple(i) {
     console.log(i);
     simple(i + 1);
 }
-simple(1);
+// simple(1);
+
+const recur = i => {
+    console.log(i);
+    if (i >= 5) {
+        return;
+    }
+    recur(i + 1)
+}
+// recur(1)
+
+function recur2(i) {
+    console.log(i);
+    if (i > 10) {
+        return
+    }
+    recur2(i + 1)
+}
+// recur2(1)
