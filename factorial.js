@@ -5,16 +5,22 @@ var number1 = 1;
 for (var i = 1; i <= 5; i++) {
     number1 = number1 * i;
 }
-console.log(number1)
+// console.log(number1)
 
 var number2 = 1;
 for (let b = 1; b <= 7; b++) {
     number2 = number2 * b;
 }
-console.log(number2)
+// console.log(number2)
 
 var number3 = 1;
 for (let c = 1; c <= 3; c++) {
     number3 = number3 * c;
 }
-console.log(number3)
+// console.log(number3)
+
+let number = 1;
+for (let i = 1; i <= 5; i++) {
+    number = number * i;
+}
+console.log(number);

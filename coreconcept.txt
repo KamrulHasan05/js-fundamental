@@ -13,3 +13,9 @@ function add(a, b) {
     return a + b;
 }
 console.log(add("adam" + "eve"))
+
+
+
+How will you change the last element of an array? (google it)
+
+You have selected "arr[arr.length] = 5" but correct answer is "arr[arr.length-1] = 5".
